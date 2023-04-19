@@ -1,0 +1,54 @@
+.containerDrinks {
+  position: relative;
+  width: 97%;
+  /* background-color: #fff; */
+  border-radius: 0.5rem;
+  /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); */
+  margin: 70px auto;
+}
+
+.daily-drinks-heading {
+  text-align: center;
+  color: rgb(90, 88, 88);
+  margin: 10px 15px;
+}
+.daily-drinks-tracker {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+.daily-drinks-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.daily-drinks-chart-container {
+  margin-bottom: 2rem;
+}
+
+.daily-drinks-totals {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.daily-drinks-total,
+.daily-calories-total {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.drinksImages {
+  position: block;
+
+  min-width: 700px;
+  width: 60%;
+  border-radius: 0.5rem;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,152 @@
+.containerDailyIntakeFood {
+  text-align: center;
+  position: relative;
+  width: 97%;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1); */
+  margin: 70px auto;
+  padding: 20px;
+}
+.containerDailyIntakeFood h2 {
+  /* text-align: center; */
+  margin: 20px 0px 40px 0px;
+}
+.containerDailyIntakeFood h4 {
+  text-align: center;
+  margin: 10px;
+  color: rgb(124, 122, 122);
+}
+.foodTable {
+  position: relative;
+  min-width: 800px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+}
+
+.calories-tracker-chart {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(211, 208, 208);
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+/* .containerTracker {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+} */
+
+.eachDay {
+  box-sizing: border-box;
+  min-width: 130px;
+  width: calc((100% / 7) - 10px);
+  padding: 0 5px;
+  margin-bottom: 20px;
+}
+
+.calories-tracker-bar-label {
+  position: relative;
+  /* width: 23%; */
+  height: 65px;
+  background-color: rgb(162, 212, 119);
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentageNumber {
+  font-size: 13px;
+  position: absolute;
+  margin-top: 13px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
+}
+.addNewFood {
+  position: absolute;
+  right: 20px;
+  top: -35px;
+  font-size: 17px;
+}
+
+.inputTracker {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid rgb(202, 196, 196);
+  padding: 0 10px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.inputButton {
+  width: 80px;
+  height: 30px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.inputButton:hover {
+  cursor: pointer;
+  background-color: #0069d9;
+}
+
+.react-calendar button {
+  color: rgb(105, 104, 104);
+}
+
+.selectedDay {
+  /* border: 1px solid green; */
+  box-shadow: 0 6px 15px rgb(183, 181, 181);
+}
+
+.containerCalendar {
+  position: relative;
+ /* set maximum width to prevent the layout from becoming too wide */
+  border: 1px solid rgb(227, 223, 223);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1000px; 
+  /* height: 600px; */
+  padding-bottom: 100px;
+}
+
+.weeklyCalendar {
+  width: 600px;
+  height: 400px;
+  margin-right: 20px;
+  /* padding: 5px 10px; */
+}
+.weeklyCalendar div {
+ width: 600px;
+ border-radius: 8px;
+ /* border: 1px solid grey; */
+}
+.weeklyCalendar h3 {
+  padding: 3px 0;
+  margin-top: 10px;
+}
+
+.mounthCalendar {
+  float: right;
+  width: 300px;
+  margin-top: 100px;
+  /* border: 1px solid rgb(235, 232, 232); */
+ /* set a height for better visualization */
+  /* background-color: #e0e0e0; */
+}
